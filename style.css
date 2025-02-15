@@ -3,43 +3,41 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    align-items: center; 
+    justify-content: center;
     font-family: sans-serif;
 }
 
 .top {
     text-align: center;
     font-size: 50px;
-    margin-bottom: 20px; /* Add some space below the title */
+    margin-bottom: 20px;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px; /* Increased gap for better spacing */
+    gap: 100px;
 }
 
 .player {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px;
 }
 
 img {
-    width: 150px; /* Increased size */
-    height: 150px; /* Increased size */
-    margin-top: 10px; /* Space above image */
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
 }
 
 #rollButton {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 20px;
-    width: 150px;
+    margin-top: 20px; 
 }
 
 .output {
