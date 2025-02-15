@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Dice Game</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1 class="top">The Dice Game</h1>
     <main>
-            <div class="first">
-                <h2>Player 1</h2>
-                <img src="./images/dice6.png" />
-            </div>
-            <div class="second">
-                <h2>Player 2</h2>
-                <img src="./images/dice6.png" />
-            </div>
+        <div class="player" id="player1">
+            <h2>Player 1</h2>
+            <img src="./images/dice6.png" id="dice1" alt="Dice 1">
+        </div>
+        <div class="player" id="player2">
+            <h2>Player 2</h2>
+            <img src="./images/dice6.png" id="dice2" alt="Dice 2">
+        </div>
     </main>
-    <h3 class="output">The Winner is: </h4>
+    <button id="rollButton">Roll Dice</button>
+    <h3 class="output" id="result">The Winner is: </h3>
+
+    <script src="./script.js"></script>
 </body>
-<script src="./java.jss" ></script>
 </html>
