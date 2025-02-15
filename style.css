@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    text-align: center;
+    font-size: 50px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    margin-right: 100px;
+    align-items: center;
+    padding: 50px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    margin-left: 100px;
+    align-items: center;
+    padding: 50px;
+}
+.output{
+    text-align: center;
+    font-size: 30px;
+}
