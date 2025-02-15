@@ -37,8 +37,8 @@ function playGame() {
     }
 }
 
-
+// Initial dice roll on page load
 playGame();
 
-
+// Event listener for the Roll Dice button
 rollButton.addEventListener("click", playGame);
