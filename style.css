@@ -1,37 +1,47 @@
-body{
-    background-color: aquamarine ;
+body {
+    background-color: aquamarine;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    font-family: sans-serif;
 }
-.top{
+
+.top {
     text-align: center;
     font-size: 50px;
+    margin-bottom: 20px; /* Add some space below the title */
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px; /* Increased gap for better spacing */
 }
-.first{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    justify-content: center;
-    margin-right: 100px;
-    align-items: center;
-    padding: 50px;
-}
-.second{
+
+.player {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    justify-content: center;
-    margin-left: 100px;
     align-items: center;
-    padding: 50px;
 }
-.output{
+
+img {
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    margin-top: 10px; /* Space above image */
+}
+
+#rollButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;  /* Space above the button */
+}
+
+.output {
     text-align: center;
     font-size: 30px;
+    margin-top: 20px;
 }
